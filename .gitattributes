@@ -1,0 +1,4 @@
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+package.json linguist-language=JSON
+package-lock.json linguist-language=JSON
