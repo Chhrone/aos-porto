@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Helvetica, "Helvetica Neue", Arial, "Nimbus Sans", sans-serif;
+    line-height: 1.6;
+}
+
+.green {
+    color: #00ff37;
+    pointer-events: auto;
+    cursor: default;
+}
+
+.white {
+    color: white;
+    pointer-events: auto;
+    cursor: default;
+}

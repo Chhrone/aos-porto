@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2/tsparticles.engine.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <section class="hero">
+        <div class="navigation" data-aos="fade-down" data-aos-duration="800">
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="hero-content">
+            <div class="main-content">
+                <h1 class="title" data-aos="fade-right" data-aos-duration="1000">
+                    <span class="green">FULLSTACK</span>
+                    <span class="white">ENGINEER</span>
+                </h1>
+                <div class="hero-text" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+                    <p>Hi! I'm <span class="name">Rayina Ilham</span>. A versatile engineer with 3+ years of experience in web development, mobile apps, and AI/ML. Specializing in building high-performance, scalable solutions using Flutter, Clean Architecture, and modern development practices.</p>
+                    <a href="#contact" class="cta-button">Contact me</a>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="stat-item" data-aos="fade-left" data-aos-delay="400" data-aos-duration="800">
+                    <span class="number green">3+</span>
+                    <span class="label">Years of Experience</span>
+                </div>
+                <div class="stat-item" data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">
+                    <span class="number green">7+</span>
+                    <span class="label">Completed Projects</span>
+                </div>
+                <div class="stat-item" data-aos="fade-left" data-aos-delay="800" data-aos-duration="800">
+                    <span class="number green">10K+</span>
+                    <span class="label">Hours Worked</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-container">
+        <!-- Left sticky about me box -->
+        <aside class="about-me" data-aos="fade-right" data-aos-duration="1000">
+            <div class="profile-image">
+                <img src="public/profile.jpeg" alt="Profile Picture">
+            </div>
+            <h2>Rayina Ilham</h2>
+            <p class="specialty">Fullstack & Mobile Developer</p>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Rayinailham9@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-location-dot"></i>
+                    <span>Depok, Indonesia</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/rayinailham/" class="social-link" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Chhrone" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://x.com/Rayiil_" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Right scrollable content -->
+        <div class="content-sections">
+            <!-- Skills Section -->
+            <section class="section skills-section" data-aos="fade-left" data-aos-duration="1000">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5/CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Vue.js</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js/Express</li>
+                            <li>Python</li>
+                            <li>RESTful APIs</li>
+                            <li>Database Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Mobile Development</h3>
+                        <ul>
+                            <li>Flutter/Dart</li>
+                            <li>Clean Architecture</li>
+                            <li>Mobile Testing</li>
+                            <li>App Performance</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>AI/ML</h3>
+                        <ul>
+                            <li>LLM Fine-tuning</li>
+                            <li>Transfer Learning</li>
+                            <li>RAG Implementation</li>
+                            <li>ML Model Deployment</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>DevOps</h3>
+                        <ul>
+                            <li>Git/GitHub</li>
+                            <li>Docker</li>
+                            <li>CI/CD Pipelines</li>
+                            <li>Cloud Services (AWS/Azure)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="section education-section" data-aos="fade-up-right" data-aos-duration="1000">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Bachelor of Informatics</h3>
+                    <p class="institution">University of Gunadarma</p>
+                    <p class="year">2022 - 2026</p>
+                </div>
+                <div class="education-item">
+                    <h3>Front-End & Back-End Bootcamp Program</h3>
+                    <p class="institution">Coding Camp by DBS Foundation</p>
+                    <p class="year">2024 - 2025</p>
+                </div>
+                <div class="education-item">
+                    <h3>Oracle for Intermediate Course</h3>
+                    <p class="institution">Lembaga Pengembangan Komputerisasi Gunadarma</p>
+                    <p class="year">April, 2025 - July, 2025</p>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="section experience-section" data-aos="fade-up-left" data-aos-duration="1000">
+                <h2>Experience</h2>
+                <div class="experience-item" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Mobile Developer Core Team</h3>
+                    <p class="company">Google Developer Student Clubs</p>
+                    <p class="period">2025 - Present</p>
+                    <ul class="responsibilities">
+                        <li>Led mobile development workshops and mentored 100+ student developers</li>
+                        <li>Developed Android applications using Flutter</li>
+                        <li>Organized tech talks and coding competitions for campus community</li>
+                        <li>Collaborated with Google engineers on student developer initiatives</li>
+                    </ul>
+                </div>
+                <div class="experience-item" data-aos="fade-up" data-aos-delay="400">
+                    <h3>Fullstack Developer</h3>
+                    <p class="company">DBS Foundation Coding Camp - Capstone Project</p>
+                    <p class="period">April, 2025 - Present</p>
+                    <ul class="responsibilities">
+                        <li>Architected and developed a full-stack fintech application using MERN stack</li>
+                        <li>Implemented secure payment gateway integration and user authentication</li>
+                        <li>Designed and deployed RESTful APIs with 99.9% uptime</li>
+                        <li>Led a team of 4 developers to successful project completion</li>
+                    </ul>
+                </div>
+                <div class="experience-item" data-aos="fade-up" data-aos-delay="600">
+                    <h3>Chief Product Officer (CPO)</h3>
+                    <p class="company">Smarter Education</p>
+                    <p class="period">January, 2024 - June, 2024</p>
+                    <ul class="responsibilities">
+                        <li>Led product strategy and development for educational technology platform</li>
+                        <li>Managed cross-functional teams to deliver innovative learning solutions</li>
+                        <li>Established product roadmap and KPIs aligned with business objectives</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="section projects-section" data-aos="zoom-in" data-aos-duration="1000">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-preview">
+                            <img src="public/project1.png" alt="MeNovel Platform Preview">
+                        </div>
+                        <div class="project-content">
+                            <h3>MeNovel</h3>
+                            <p class="description">A digital platform for literature enthusiasts and talented writers worldwide. Features include user-friendly interface, novel publishing system, writer profiles, and real-time commenting system.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Vercel</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Postgre</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://me-novel.vercel.app/" class="project-link" target="_blank">View Project</a>
+                                <a href="https://github.com/Chhrone/MeNovel" class="github-link" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-preview">
+                            <img src="public/project2.jpg" alt="Project 2 Preview">
+                        </div>
+                        <div class="project-content">
+                            <h3>Project Name 2</h3>
+                            <p class="description">Another amazing project with its own unique features and
+                                implementation details.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Tailwind</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Project</a>
+                                <a href="#" class="github-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-preview">
+                            <img src="public/project3.jpg" alt="Project 3 Preview">
+                        </div>
+                        <div class="project-content">
+                            <h3>Project Name 3</h3>
+                            <p class="description">A showcase of your development skills with modern web technologies.
+                            </p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Prisma</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Project</a>
+                                <a href="#" class="github-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer" data-aos="fade-up" data-aos-duration="800" data-aos-offset="0">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Get in Touch</h3>
+                <p>Feel free to reach out for collaborations or just a friendly hello</p>
+                <a href="mailto:Rayinailham9@gmail.com" class="footer-link">Rayinailham9@gmail.com</a>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <div class="footer-social-links">
+                    <a href="https://www.linkedin.com/in/rayinailham/" class="social-link" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Chhrone" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://x.com/Rayiil_" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <p class="copyright">© 2025 Rayina Ilham. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="src/script.js"></script>
+</body>
+
+</html>

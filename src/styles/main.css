@@ -1,0 +1,13 @@
+/* Base styles */
+@import './base.css';
+
+/* Components */
+@import './components/hero.css';
+@import './components/about.css';
+@import './components/sections.css';
+@import './components/projects.css';
+@import './components/footer.css';
+
+/* Utils */
+@import './utils/scrollbar.css';
+@import './utils/animations.css';

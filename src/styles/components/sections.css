@@ -1,0 +1,102 @@
+.main-container {
+    display: flex;
+    gap: 4rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 4rem;
+    min-height: 100vh;
+    position: relative;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.content-sections {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    pointer-events: none;
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    pointer-events: auto;
+}
+
+.section h2 {
+    color: #00ff37;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.skill-category h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.skill-category ul {
+    list-style: none;
+}
+
+.skill-category li {
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.education-item,
+.experience-item {
+    margin-bottom: 2rem;
+}
+
+.education-item h3,
+.experience-item h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.institution,
+.company,
+.period,
+.year {
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.responsibilities {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.responsibilities li {
+    color: #888;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.responsibilities li::before {
+    content: "•";
+    color: #00ff37;
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 1024px) {
+    .main-container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .content-sections {
+        width: 100%;
+    }
+}
