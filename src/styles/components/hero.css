@@ -139,3 +139,22 @@
         margin-top: 3rem;
     }
 }
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}

@@ -101,3 +101,17 @@
         width: 100%;
     }
 }
+
+@media (max-width: 480px) {
+    .main-container {
+        padding: 1rem;
+    }
+
+    .content-sections {
+        gap: 1rem;
+    }
+
+    .section {
+        padding: 1rem;
+    }
+}
