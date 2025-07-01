@@ -1,4 +1,4 @@
-/* Projects section hidden
+/* Projects section enabled */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -70,38 +70,62 @@
     padding: 0.25rem 0.75rem;
     border-radius: 50px;
     font-size: 0.85rem;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+    transition: background 0.18s, color 0.18s, box-shadow 0.18s;
 }
+.tech-tag:hover {
+    box-shadow: 0 0px 4px rgba(0, 255, 55, 0.484);
+}
+
 
 .project-links {
     display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
+    align-items: center;
+    margin-top: 1.2rem;
+    gap: 1.2rem;
+    padding: 0.2rem 0.2rem 0.2rem 0;
 }
 
-.project-link,
 .github-link {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.1rem 0.5rem 0.9rem;
     border-radius: 4px;
     text-decoration: none;
     transition: all 0.3s ease;
     font-size: 0.9rem;
-}
-
-.project-link {
-    background: #00ff37;
-    color: #1a1a1a;
-}
-
-.github-link {
     background: rgba(255, 255, 255, 0.1);
     color: #fff;
+    margin-left: 0;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
 }
-
-.project-link:hover,
 .github-link:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.live-demo-link {
+    margin-left: auto;
+    color: #00ff37;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+    border-radius: 50%;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.live-demo-link:hover {
+    background: rgba(0,255,55,0.08);
+    color: #00ff37;
 }
 
 @media (max-width: 768px) {
@@ -113,4 +137,3 @@
         height: 180px;
     }
 }
-*/
